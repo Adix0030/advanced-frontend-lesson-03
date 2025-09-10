@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { ShowTemperature } from "../show-temperature/show-temperature";
+import { UpdateTemperature } from '../update-temperature/update-temperature';
 
 @Component({
   selector: 'app-temperature',
   standalone: true,
-  imports: [ShowTemperature],
+  imports: [ShowTemperature,UpdateTemperature],
   templateUrl: './temperature.html',
   styleUrl: './temperature.css'
 })
